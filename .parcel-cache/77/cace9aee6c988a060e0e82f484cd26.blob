@@ -1,0 +1,11 @@
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+var _htmlLiteral = require("html-literal");
+var _htmlLiteralDefault = _parcelHelpers.interopDefault(_htmlLiteral);
+exports.default = links => _htmlLiteralDefault.default`
+<nav>
+  <ul>
+    ${links.map(link => `<li><a href="/${link.title}" title="link.title" data-navigo>${link.text}</a></li>`)}
+  </ul>
+</nav>
+`;
