@@ -1,0 +1,12 @@
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+_parcelHelpers.export(exports, "Main", function () {
+  return _MainDefault.default;
+});
+_parcelHelpers.export(exports, "Nav", function () {
+  return _NavDefault.default;
+});
+var _Main = require("./Main");
+var _MainDefault = _parcelHelpers.interopDefault(_Main);
+var _Nav = require("./Nav");
+var _NavDefault = _parcelHelpers.interopDefault(_Nav);
