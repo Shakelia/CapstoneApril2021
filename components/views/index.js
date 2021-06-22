@@ -1,22 +1,15 @@
-import { Header, Nav, Main, Footer } from "./components";
-import * as state from "./store";
-// import {Placeholder for files from ./lib};
-
-function render(st) {
-  document.querySelector("#root").innerHTML = `
-    ${Header(st)}
-    ${Nav(state.Links)}
-    ${Main(st)}
-    ${Footer(st)}`;
-  addEventListeners();
-}
-
-render(state.Home);
-
-// menu toggle to hamburger
-
-function addEventListeners() {
-  document.querySelector(".fa-bars").addEventListener("click", () => {
-    document.querySelector("nav > ul").classList.toggle("hidden--mobile");
-  });
-}
+export default links => `
+<nav>
+  <i class="fas fa-bars"></i>
+  <ul class="hidden--mobile nav-links">
+  ${links
+    .map(
+      link =>
+        `<li><a href="/${link.title !== "Home" ? link.title : ""}" title="${
+          link.title
+        }" data-navigo>${link.text}</a></li>`
+    )
+    .join("")}
+  </ul>
+</nav>
+`;
