@@ -1,3 +1,3 @@
 export default [
-  {title: "Home", text: "Home"}
+  {title: "Kidney Konnection", text: "Kidney Konnection"}
 ]
