@@ -1,4 +1,4 @@
 export default () => `
 <header class="topOfPage">
-<h1>Find kidney friend with Kidney Konnect</h1>
+<h1>Find a Kidney Konnection</h1>
 </header>`;
