@@ -1,6 +1,6 @@
 import { User } from "../store";
-
-export default () => `
+import html from "html-literal"
+export default () => html`
 <!------------- header--------------->
 <div class="main-header">
     <div class="header">
