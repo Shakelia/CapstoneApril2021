@@ -1,4 +1,4 @@
 export default {
   header: "Kid Koc",
-  view: "Home"
+  view: "Kidney Konnect"
 }
