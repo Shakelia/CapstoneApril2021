@@ -14,9 +14,10 @@ router.on({
 
 function render(st = state.Home) {
   document.querySelector("#root").innerHTML = `
-  ${Footer()}
+  ${Header(st)}
   ${Nav(state.Links)}
   ${Main(st)}
+  ${Footer()}
   `;
   router.updatePageLinks();
 }

@@ -63,11 +63,11 @@ Well I would start at the very place journey began, with my nephrologist. My nep
 
 <!--Second text box-->
 
-<h3 class="boxTitles">
+<h2 class="boxTitles">
 
 Feel like a burden no longer
 
-</h3>
+</h2>
 
 <p>
 
