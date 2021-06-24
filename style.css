@@ -15,15 +15,6 @@ h5 {
   letter-spacing: 0.1em;
 }
 
-header {
-  background-image: url(https://choosingdialysis.org/portals/0/DecisionAid/Images/Pics2/StagesGraphic_W600.png);
-  z-index: -2;
-  /* opacity: 45%; */
-  /* background-color: #2f7826; */
-  background-size: cover;
-  width: 100vw;
-  height: 100vh;
-}
 
 ul {
   list-style-type: none;

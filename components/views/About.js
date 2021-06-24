@@ -1,8 +1,6 @@
 import html from "html-literal"
 export default () => html`
 
-<h2>Welcome To Kidney Konnect</h2>
-
 <div class="flex aboutBox">
 
 <!--First text box-->

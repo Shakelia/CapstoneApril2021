@@ -1,4 +1,4 @@
-export default {
-  header: "Lets Konnect",
-  view: "Contact"
-};
+import html from "html-literal"
+export default () => html`
+<h1>Kontact Me</h1>
+`;
