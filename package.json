@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "axios": "^0.21.1",
+    "components": "^0.1.0",
     "html-literal": "^1.1.0",
     "lodash": "^4.17.21",
     "navigo": "^7.1.3",

@@ -10,25 +10,42 @@ h4,
 h5 {
   color: #03010f;
   font-family:"Courier.New", Courier, monospace;
-  font-size: 1.2em;
+  font-size: 1.0em;
   text-align: center;
   letter-spacing: 0.1em;
 }
 
+.feelingBetter{
+  width: 300px;
+height: 400px;
+}
+
+.FaceChanges{
+  width: 300px;
+  height: 400px;
+}
 
 ul {
   list-style-type: none;
 }
 
+
 .homepage {
-  justify-content: center;
+  justify-content:center;
   justify-items: center;
-  margin-bottom: 30%;
+  margin-bottom: 20%;
+}
+
+.contact {
+  justify-content:center;
+  justify-items: center;
+  margin-bottom: 20%;
 }
 
 p {
   font-family: "Dosis", sans-serif;
-  color: hsl(241, 80%, 37%);
+  color: hsl(241, 100%, 40%);
+  font-size: 30px;
 }
 
 button {
@@ -59,14 +76,14 @@ link {
     display: flex;
     flex-direction: column;
     border: 3px solid gray;
-    max-width: 50%;
+    max-width: 40%;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
     justify-self: center;
-    margin-left: 25%;
+    margin-left: 40%;
     margin-right: 25%;
-    border-radius: 20px;
+    border-radius: 40px;
 } */
 
 .boxTitles,
@@ -87,6 +104,8 @@ footer {
   .hidden--mobile {
     display: none !important;
   }
+
+
 
   nav {
     display: flex;
@@ -112,7 +131,7 @@ footer {
   }
 }
 
-@media (min-width: 550px) {
+@media (min-width: 300px) {
   nav > ul {
     display: flex;
     justify-content: space-evenly;

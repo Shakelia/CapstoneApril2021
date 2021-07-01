@@ -1,4 +1,4 @@
 export default st => `
 <header>
-<h2>Welcome To Kidney Konnect</h2>
+<h1>Welcome To Kidney Konnect</h1>
 </header>`;
